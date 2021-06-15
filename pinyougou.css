@@ -1,0 +1,769 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?trtj4o');
+    src: url('fonts/icomoon.eot?trtj4o#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?trtj4o') format('truetype'), url('fonts/icomoon.woff?trtj4o') format('woff'), url('fonts/icomoon.svg?trtj4o#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 头部链接制作  */
+
+header {
+    width: 1920px;
+    height: 35px;
+    background-color: rgb(241, 241, 241);
+}
+
+header .header-span1 {
+    float: left;
+    margin: 0 160px;
+    display: block;
+    width: 250px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+header .header-span1 a {
+    color: rgb(201, 27, 57);
+    text-decoration: none;
+}
+
+header .header-span2 {
+    margin-left: 190px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+header .header-span2 li {
+    float: left;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+header .header-span2 li a {
+    margin: 0px 10px;
+    color: black;
+}
+
+header .header-span2 li a:hover {
+    color: red;
+}
+
+header .header-span2 :nth-of-type(2) {
+    font-family: 'icomoon';
+}
+
+header .header-span2 :nth-of-type(n+5) {
+    font-family: 'icomoon';
+}
+
+/* 头部链接结束 */
+
+.top {
+    margin-top: 20px;
+    height: 130px;
+}
+
+.top img {
+    float: left;
+}
+
+.find {
+    float: left;
+    margin-left: 170px;
+}
+
+.find .find_one {
+    float: left;
+    outline: none;
+    width: 460px;
+    height: 35px;
+    border: 2px solid rgb(196, 0, 0);
+    text-indent: 1em;
+}
+
+.find input::placeholder {
+    color: rgba(0, 0, 0, .5);
+    font-weight: 200;
+}
+
+.find .find_two {
+    float: left;
+    margin-left: -2px;
+    outline: none;
+    width: 80px;
+    height: 35px;
+    background-color: rgb(177, 25, 26);
+    border: 0px;
+    color: white;
+}
+
+.find li {
+    float: left;
+    margin: 5px 12px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.find li a {
+    color: gray;
+}
+
+.find li a:hover {
+    color: red;
+}
+
+.find .find_first a {
+    color: red;
+}
+
+.gouwuche {
+    float: left;
+    margin-left: 100px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: rgb(247, 247, 247);
+}
+
+.gouwuche span {
+    margin-left: 20px;
+    font-family: 'icomoon';
+    color: rgb(218, 85, 85);
+}
+
+.top_nav {
+    float: left;
+    height: 39px;
+}
+
+.top_nav li {
+    float: left;
+    margin: 30px 00px;
+    display: block;
+    height: 39px;
+    width: 90px;
+    text-align: center;
+    line-height: 39px;
+}
+
+.top_nav li:first-child {
+    width: 220px;
+    background-color: rgb(177, 25, 26);
+    color: white;
+}
+
+.top_nav li a {
+    color: grey;
+}
+
+.top_nav li a:hover {
+    color: rgb(218, 85, 85);
+}
+
+/* 顶部搜索框、购物车模块 */
+
+/* 主体区域 */
+
+section {
+    height: 630px;
+}
+
+/* 左侧导航栏 */
+
+.left_nav {
+    float: left;
+    width: 220px;
+    background-color: rgb(196, 0, 0);
+}
+
+.left_nav li {
+    padding-left: 8px;
+    transition: all .3s;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border: 1px rgb(196, 0, 0) solid;
+}
+
+.left_nav li:hover {
+    text-indent: 10px;
+    background-color: white;
+}
+
+.left_nav li a {
+    color: white;
+}
+
+.left_nav li:hover a {
+    color: rgb(196, 0, 0);
+}
+
+.left_nav li i {
+    float: right;
+    color: white;
+    font-style: normal;
+}
+
+/* 左侧导航栏结束 */
+
+/* 中部焦点图 */
+
+.center_nav {
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 700px;
+    height: 440px;
+}
+
+.center_nav img {
+    width: 700px;
+    height: 440px;
+}
+
+.center_nav div {
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+}
+
+.center_nav div:hover {
+    color: rgb(218, 85, 85);
+}
+
+.center_nav .nav_left {
+    position: absolute;
+    padding-left: 3px;
+    left: 0;
+    top: 205px;
+}
+
+.center_nav .nav_right {
+    position: absolute;
+    padding-left: 5px;
+    right: 0;
+    top: 205px;
+}
+
+.center_nav ul {
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    width: 200px;
+    height: 12px;
+}
+
+.center_nav ul li {
+    float: left;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid gainsboro;
+    border-radius: 6px;
+}
+
+.center_nav ul li:nth-child(2) {
+    background-color: white;
+    border: 1px transparent solid;
+}
+
+/* 焦点图结束 */
+
+/* 右侧品优购快报开始 */
+
+.right_nav {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 440px;
+    width: 249px;
+    /* border: 1px solid red; */
+}
+
+.right_nav1 {
+    height: 40px;
+    border: 1px gray solid;
+    border-bottom: 1px gray dotted;
+}
+
+.right_nav1 h4 {
+    float: left;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.right_nav1 a {
+    float: right;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 38px;
+    color: black;
+}
+
+.right_nav2 {
+    height: 130px;
+    border: 1px solid gray;
+    border-top: 0px;
+}
+
+.right_nav2 li {
+    padding-top: 5px;
+    padding-left: 10px;
+    ;
+}
+
+.right_nav2 li a {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .7);
+}
+
+.right_nav2 li a:hover {
+    color: rgb(218, 85, 85);
+}
+
+.right_nav3 {
+    float: left;
+}
+
+.right_nav3 li {
+    position: relative;
+    float: left;
+    margin-right: -1px;
+    height: 63px;
+    width: 63px;
+    border: 1px solid gray;
+    border-top: 0px;
+    background: url(../../../html+css/html_css_material/第十一天/shoping/images/icons.png) -62px -10px no-repeat;
+}
+
+.right_nav3 li:nth-child(1) {
+    background: url(../../../html+css/html_css_material/第十一天/shoping/images/icons.png) 3px -10px no-repeat;
+}
+
+.right_nav3 li span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../综合案例/4.image/jian.jpg) no-repeat;
+}
+
+.right_nav3 li a {
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+    color: rgba(0, 0, 0, .7);
+}
+
+.right_nav4 img {
+    padding-top: 6px;
+}
+
+/* 右侧品优购快报结束 */
+
+/* 今日推荐开始 */
+
+.tuijian_nav {
+    float: left;
+    margin: 10px auto;
+    margin-bottom: 0px;
+    height: 150px;
+}
+
+.tuijian_nav li {
+    float: left;
+    height: 160px;
+    width: 245px;
+}
+
+.tuijian_nav li:nth-child(1) {
+    padding-top: 20px;
+    width: 210px;
+    height: 160px;
+    font-size: 60px;
+    font-family: 'icomoon';
+    color: white;
+    background-color: rgb(92, 82, 81);
+    text-align: center;
+}
+
+.tuijian_nav li p {
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.tuijian_nav li img {
+    width: 245px;
+    height: 160px;
+}
+
+/* 今日推荐结束 */
+
+/* 网页商品内容开始 */
+
+/* 商品顶部导航栏开始 */
+
+.body {
+    height: 363px;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.body_top {
+    height: 30px;
+}
+
+.body_top h3 {
+    float: left;
+    line-height: 30px;
+    color: rgb(177, 25, 26);
+}
+
+.body_top ul {
+    margin-left: 590px;
+}
+
+.body_top li {
+    float: left;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.body_top li span {
+    margin: 0 8px;
+    color: rgba(0, 0, 0, .7);
+}
+
+.body_top li a {
+    font-weight: 400;
+    color: rgba(0, 0, 0, .7);
+}
+
+.body_top li a:hover {
+    color: rgb(177, 25, 26);
+}
+
+.body_top .body_top1 {
+    color: rgb(177, 25, 26);
+}
+
+/* 商品导航栏结束 */
+
+/* 商品内容介绍开始 */
+
+.body_article {
+    height: 330px;
+    border-top: 2px rgb(177, 25, 26) solid;
+}
+
+.body_article img {
+    transition: all .3s;
+}
+
+.body_article img:hover {
+    margin-left: 10px;
+}
+
+.article1 {
+    float: left;
+    width: 200px;
+    height: 330px;
+}
+
+.article1 li {
+    float: left;
+    display: block;
+    text-align: center;
+    margin-left: 7px;
+    width: 90px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+    border-bottom: 1px grey solid;
+}
+
+.article1 li a {
+    color: rgba(0, 0, 0, .7);
+}
+
+.article1 li a:hover {
+    color: rgb(177, 25, 26);
+}
+
+.article1 img {
+    margin-top: 10px;
+    height: 230px;
+    width: 200px;
+}
+
+.article2 {
+    float: left;
+    position: relative;
+    width: 323px;
+    height: 330px;
+}
+
+.article2 img {
+    float: left;
+    position: relative;
+    width: 323px;
+    height: 330px;
+}
+
+.article2 ul {
+    position: absolute;
+    left: 110px;
+    bottom: 15px;
+    width: 200px;
+    height: 12px;
+}
+
+.article2 ul li {
+    float: left;
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 6px;
+}
+
+.article2 ul li:nth-child(1) {
+    background-color: white;
+    border: 1px transparent solid;
+}
+
+.article3 {
+    float: left;
+    width: 220px;
+    height: 330px;
+}
+
+.article3_one {
+    float: left;
+    width: 220px;
+    height: 165px;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+}
+
+.article3_two {
+    float: left;
+    margin-bottom: 4px;
+    width: 220px;
+    height: 165px;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+}
+
+.article3 img {
+    width: 210px;
+    height: 155px;
+}
+
+.article4 {
+    float: left;
+    width: 225px;
+    height: 330px;
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.article4 img {
+    float: left;
+    width: 220px;
+    height: 329px;
+}
+
+.article5 {
+    float: left;
+    width: 195px;
+    height: 329px;
+}
+
+.article5 img {
+    width: 210px;
+    height: 155px;
+}
+
+.article5_one {
+    float: left;
+    width: 220px;
+    height: 165px;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+}
+
+.article5_two {
+    float: left;
+    width: 220px;
+    height: 165px;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+}
+
+/* 商品内容介绍结束 */
+
+/* 网页商品内容结束 */
+
+/* 网站底部模块开始 */
+
+footer {
+    height: 410px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+
+.footer1 {
+    height: 80px;
+}
+
+.footer1 li {
+    float: left;
+    width: 237px;
+    height: 80px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, .7);
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.footer1 li span {
+    float: left;
+    display: block;
+    margin: 14px 15px;
+    margin-right: 5px;
+    width: 55px;
+    height: 52px;
+}
+
+.footer1 li h5 {
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.footer1 li p {
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.footer1 .span1 {
+    background: url(../../../html+css/html_css_material/第十二天/shoping/images/icons.png)-251px -2px no-repeat;
+}
+
+.footer1 .span2 {
+    background: url(../../../html+css/html_css_material/第十二天/shoping/images/icons.png)-251px -54px no-repeat;
+}
+
+.footer1 .span3 {
+    background: url(../../../html+css/html_css_material/第十二天/shoping/images/icons.png)-251px -104px no-repeat;
+}
+
+.footer1 .span4 {
+    background: url(../../../html+css/html_css_material/第十二天/shoping/images/icons.png)-251px -156px no-repeat;
+}
+
+.footer1 .span5 {
+    background: url(../../../html+css/html_css_material/第十二天/shoping/images/icons.png)-251px -104px no-repeat;
+}
+
+.footer2 {
+    height: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.footer2 ul {
+    float: left;
+    margin: 20px 55px;
+}
+
+.footer2 li {
+    margin-bottom: 2px;
+}
+
+.footer2 li h4 {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, .7);
+}
+
+.footer2 li a {
+    font-size: 13px;
+    color: rgba(0, 0, 0, .7);
+}
+
+.footer2 li a:hover {
+    color: rgb(177, 25, 26);
+}
+
+.footer2 .kehuduan {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 200px;
+}
+
+.kehuduan h4 {
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.kehuduan img {
+    margin: 10px 30px;
+}
+
+.kehuduan p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer3 {
+    height: 130px;
+}
+
+.footer3 p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, .7);
+    text-align: center;
+}
+
+.footer3 p:nth-child(3) {
+    margin-top: 0;
+}
+
+/* 网站底部模块结束 */

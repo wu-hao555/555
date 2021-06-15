@@ -1,0 +1,420 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?trtj4o');
+    src: url('fonts/icomoon.eot?trtj4o#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?trtj4o') format('truetype'), url('fonts/icomoon.woff?trtj4o') format('woff'), url('fonts/icomoon.svg?trtj4o#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 头部链接制作  */
+
+header {
+    width: 1920px;
+    height: 35px;
+    background-color: rgb(241, 241, 241);
+}
+
+header .header-span1 {
+    float: left;
+    margin: 0 160px;
+    display: block;
+    width: 250px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+header .header-span1 a {
+    color: rgb(201, 27, 57);
+    text-decoration: none;
+}
+
+header .header-span2 {
+    margin-left: 190px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+header .header-span2 li {
+    float: left;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+header .header-span2 li a {
+    margin: 0px 10px;
+    color: black;
+}
+
+header .header-span2 li a:hover {
+    color: red;
+}
+
+header .header-span2 :nth-of-type(2) {
+    font-family: 'icomoon';
+}
+
+header .header-span2 :nth-of-type(n+5) {
+    font-family: 'icomoon';
+}
+
+/* 头部链接结束 */
+
+.top {
+    margin-top: 20px;
+    height: 130px;
+}
+
+.top img {
+    float: left;
+}
+
+.find {
+    float: left;
+    margin-left: 170px;
+}
+
+.find .find_one {
+    float: left;
+    outline: none;
+    width: 460px;
+    height: 35px;
+    border: 2px solid rgb(196, 0, 0);
+    text-indent: 1em;
+}
+
+.find input::placeholder {
+    color: rgba(0, 0, 0, .5);
+    font-weight: 200;
+}
+
+.find .find_two {
+    float: left;
+    margin-left: -2px;
+    outline: none;
+    width: 80px;
+    height: 35px;
+    background-color: rgb(177, 25, 26);
+    border: 0px;
+    color: white;
+}
+
+.find li {
+    float: left;
+    margin: 5px 12px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.find li a {
+    color: gray;
+}
+
+.find li a:hover {
+    color: red;
+}
+
+.find .find_first a {
+    color: red;
+}
+
+.gouwuche {
+    float: left;
+    margin-left: 100px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: rgb(247, 247, 247);
+}
+
+.gouwuche span {
+    margin-left: 20px;
+    font-family: 'icomoon';
+    color: rgb(218, 85, 85);
+}
+
+.top_nav {
+    float: left;
+    height: 39px;
+}
+
+.top_nav li {
+    float: left;
+    margin: 30px 00px;
+    display: block;
+    height: 39px;
+    width: 90px;
+    text-align: center;
+    line-height: 39px;
+}
+
+.top_nav li:first-child {
+    width: 220px;
+    background-color: rgb(177, 25, 26);
+    color: white;
+}
+
+.top_nav li a {
+    color: grey;
+}
+
+.top_nav li a:hover {
+    color: rgb(218, 85, 85);
+}
+
+/* 顶部搜索框、购物车模块 */
+
+/* 主体区域 */
+
+.body {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.body1 {
+    margin: 0 auto;
+    width: 350px;
+    height: 500px;
+    border: 1px solid rgb(177, 25, 26);
+    background-color: white;
+}
+
+.body2 {
+    text-align: center;
+    height: 290px;
+}
+
+.body2 img {
+    margin: 20px auto;
+    height: 250px;
+    width: 180px;
+}
+
+.body3 {
+    margin: 10px auto;
+    height: 40px;
+    width: 300px;
+    text-align: left;
+}
+
+.body4 {
+    margin: 10px auto;
+    height: 30px;
+    width: 300px;
+}
+
+.price1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(152, 23, 46);
+}
+
+.price2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.body5 {
+    margin: 10px auto;
+    height: 30px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.body5 span {
+    float: left;
+    margin: 0 5px;
+}
+
+.body5 .jindu {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 15px;
+    border: 2px solid rgb(177, 25, 26);
+    border-radius: 7px;
+}
+
+.body5 .jindu1 {
+    display: block;
+    width: 50px;
+    height: 12px;
+    border-radius: 7px;
+    background-color: rgb(177, 25, 26);
+    transition: all .5s;
+}
+
+.body5 a {
+    color: rgb(196, 0, 0);
+}
+
+.body5 .jindu1:hover {
+    width: 100px;
+}
+
+.body6 {
+    margin: 0 auto;
+    height: 60px;
+    width: 300px;
+    background-color: rgb(177, 25, 26);
+}
+
+.body6 a {
+    padding-left: 90px;
+    font-size: 28px;
+    line-height: 60px;
+    color: white;
+}
+
+/* 网站底部模块开始 */
+
+footer {
+    height: 410px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+
+.footer1 {
+    height: 80px;
+}
+
+.footer1 li {
+    float: left;
+    width: 237px;
+    height: 80px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, .7);
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.footer1 li span {
+    float: left;
+    display: block;
+    margin: 14px 15px;
+    margin-right: 5px;
+    width: 55px;
+    height: 52px;
+}
+
+.footer1 li h5 {
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.footer1 li p {
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.footer1 .span1 {
+    background: url(../../../html+css/html_css_material/第十二天/shoping/images/icons.png)-251px -2px no-repeat;
+}
+
+.footer1 .span2 {
+    background: url(../../../html+css/html_css_material/第十二天/shoping/images/icons.png)-251px -54px no-repeat;
+}
+
+.footer1 .span3 {
+    background: url(../../../html+css/html_css_material/第十二天/shoping/images/icons.png)-251px -104px no-repeat;
+}
+
+.footer1 .span4 {
+    background: url(../../../html+css/html_css_material/第十二天/shoping/images/icons.png)-251px -156px no-repeat;
+}
+
+.footer1 .span5 {
+    background: url(../../../html+css/html_css_material/第十二天/shoping/images/icons.png)-251px -104px no-repeat;
+}
+
+.footer2 {
+    height: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.footer2 ul {
+    float: left;
+    margin: 20px 55px;
+}
+
+.footer2 li {
+    margin-bottom: 2px;
+}
+
+.footer2 li h4 {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, .7);
+}
+
+.footer2 li a {
+    font-size: 13px;
+    color: rgba(0, 0, 0, .7);
+}
+
+.footer2 li a:hover {
+    color: rgb(177, 25, 26);
+}
+
+.footer2 .kehuduan {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 200px;
+}
+
+.kehuduan h4 {
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.kehuduan img {
+    margin: 10px 30px;
+}
+
+.kehuduan p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer3 {
+    height: 130px;
+}
+
+.footer3 p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, .7);
+    text-align: center;
+}
+
+.footer3 p:nth-child(3) {
+    margin-top: 0;
+}
+
+/* 网站底部模块结束 */

@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top {
+    margin-top: 18px;
+}
+
+.hr {
+    display: block;
+    height: 2px;
+    background-color: black;
+}
+
+.body {
+    height: 450px;
+}
+
+.body1 {
+    margin: 10px auto;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.body1 span {
+    float: right;
+}
+
+.body1 span a {
+    text-decoration: none;
+    color: red;
+}
+
+.body2 table {
+    margin: 10px auto;
+}
+
+.body2 input {
+    width: 250px;
+    height: 30px;
+}
+
+.body2 tr td:first-child {
+    height: 30px;
+    width: 100px;
+}
+
+.body2 tr td:nth-child(2) {
+    height: 40px;
+    width: 250px;
+}
+
+.body2 tr td:nth-child(3) {
+    height: 30px;
+    width: 350px;
+}
+
+.body2 table tr td:first-child {
+    line-height: 30px;
+    text-align: right;
+}
+
+.body2 table tr td span {
+    color: red;
+    line-height: 30px;
+}
+
+.body2 table tr td img {
+    vertical-align: middle;
+}
+
+.body2 .anquan {
+    float: right;
+    font-size: 12px;
+}
+
+.body2 .anquan span {
+    display: inline-block;
+    height: 20px;
+    width: 30px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+}
+
+.body2 .anquan .span1 {
+    background-color: red;
+}
+
+.body2 .anquan .span2 {
+    background-color: green;
+}
+
+.body2 .anquan .span3 {
+    background-color: orange;
+}
+
+.body2 table .checkbox {
+    height: 15px;
+    width: 15px;
+}
+
+.body2 .xieyi {
+    font-size: 14px;
+}
+
+.body2 .xieyi a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.body2 .submit input {
+    color: white;
+    background-color: rgb(200, 17, 24);
+}
+
+.footer {
+    height: 130px;
+    border-top: 1px solid gray;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, .7);
+    text-align: center;
+}
+
+.footer p:nth-child(3) {
+    margin-top: 0;
+}
